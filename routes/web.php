@@ -25,3 +25,7 @@ Route::group(['prefix' => 'secure'], function () {
 
 # Frontend routes
 Route::get('/exhibit/{id}/display', 'ExhibitionController@displayBooth');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
