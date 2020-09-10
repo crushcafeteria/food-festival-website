@@ -30,7 +30,41 @@
         <div class="loader"></div>
     </div>
 
+    <!-- Header Section Begin -->
+@include('components.nav')
+<!-- Header End -->
+
+
+
         @yield('content')
+
+
+        <!-- Contact Section Begin -->
+<section class="contact-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title">
+                    <h2 class="text-center">Get in touch with us</h2>
+                    <p class="text-center">We will be happy to help!</p>
+                </div>
+                <div class="cs-text">
+                    <ul>
+                        <li>
+                            <span>Phone:</span>
+                            (+254) 700 123 456
+                        </li>
+                        <li>
+                            <span>Email:</span>
+                            info@irenkenya.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">

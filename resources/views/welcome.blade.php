@@ -1,28 +1,6 @@
 @extends('layout.frontend')
 
 @section('content')
-<!-- Header Section Begin -->
-<header class="header-section">
-    <div class="container">
-        <div class="logo">
-            <a href="/">
-                <h4>IG Food Festival</h4>
-            </a>
-        </div>
-        <div class="nav-menu">
-            <nav class="mainmenu mobile-menu">
-                <ul>
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                </ul>
-            </nav>
-            <a href="/secure" class="primary-btn top-btn"><i class="fa fa-lock"></i> Login</a>
-        </div>
-        <div id="mobile-menu-wrap"></div>
-    </div>
-</header>
-<!-- Header End -->
 
 <!-- Hero Section Begin -->
 <section class="hero-section set-bg" data-setbg="{{ asset('img/concert-2527495_1280.jpg') }}">
@@ -128,32 +106,5 @@
 
 </section>
 <!-- Team Member Section End -->
-
-<!-- Contact Section Begin -->
-<section class="contact-section spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="section-title">
-                    <h2 class="text-center">Get in touch with us</h2>
-                    <p class="text-center">We will be happy to help!</p>
-                </div>
-                <div class="cs-text">
-                    <ul>
-                        <li>
-                            <span>Phone:</span>
-                            (+254) 700 123 456
-                        </li>
-                        <li>
-                            <span>Email:</span>
-                            info@irenkenya.com
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Contact Section End -->
 
 @endsection
