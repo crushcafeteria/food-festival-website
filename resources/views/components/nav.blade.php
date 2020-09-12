@@ -15,7 +15,7 @@
                         <a href="/lobby">Lobby</a>
                     </li>
                     <li>
-                        <a href="/exhibitors/index">Festival Square</a>
+                        <a href="/exhibitors">Festival Square</a>
                     </li>
                     <li>
                         <a href="/videos">Kamukunji</a>

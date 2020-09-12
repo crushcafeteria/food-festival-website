@@ -30,3 +30,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/lobby', 'HomeController@lobby');
+Route::get('/exhibitors', 'HomeController@listExhibitors');

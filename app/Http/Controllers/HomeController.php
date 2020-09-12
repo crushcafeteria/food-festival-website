@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Exhibitor;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -29,5 +30,14 @@ class HomeController extends Controller
     function lobby()
     {
         return view('lobby');
+    }
+
+    function listExhibitors()
+    {
+        $rows = Exhibitor::paginate();
+
+        return view('exhibition.list', [
+            'rows' => $rows
+        ]);
     }
 }
