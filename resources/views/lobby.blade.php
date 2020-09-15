@@ -2,7 +2,7 @@
 
 @section('content')
     <video playsinline autoplay muted loop poster="http://placehold.it/1000x600?text=Video+is+loading..."
-    src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/blurry-trees.mov">
+    src="{{ asset('/videos/lobby.mp4') }}">
     </video>
 <style>
     video {

@@ -4,6 +4,13 @@
 
 <div class="container">
     <div class="row">
+        <div class="col mb-5">
+            <video playsinline autoplay muted loop poster="http://placehold.it/1000x600?text=Video+is+loading..."
+                   src="{{ asset('/videos/festival.mp4') }}" width="100%">
+            </video>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-12">
             <h2>Meet our exhibitors</h2>
             <hr>

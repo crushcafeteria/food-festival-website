@@ -18,7 +18,7 @@
                         <a href="/exhibitors">Festival Square</a>
                     </li>
                     <li>
-                        <a href="/videos">Kamukunji</a>
+                        <a href="/watch">Kamukunji</a>
                     </li>
                 </ul>
             </nav>
