@@ -23,7 +23,7 @@
                         <img class="card-img-top" src="/storage/{{ $row->logo }}" alt="{{ $row->name }}">
                         <div class="card-body">
                             <h5 class="card-title">{{ $row->business_name }}</h5>
-                            <a href="/exhibitors/{{ $row->id }}/display" class="btn btn-outline-primary btn-block">Open Booth</a>
+                            <a href="/exhibitors/{{ $row->id }}" class="btn btn-outline-primary btn-block">Open Booth</a>
                         </div>
                     </div>
                 </div>

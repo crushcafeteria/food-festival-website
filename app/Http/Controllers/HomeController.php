@@ -58,4 +58,11 @@ class HomeController extends Controller
             'video' => Video::find($id)
         ]);
     }
+
+    function showExhibitor($id)
+    {
+        return view('exhibition.view', [
+            'exhibitor' => Exhibitor::find($id)
+        ]);
+    }
 }
