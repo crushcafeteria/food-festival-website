@@ -1,8 +1,8 @@
 <header class="header-section">
     <div class="container">
-        <div class="logo">
+        <div class="logo" style="padding-top: 15px !important;">
             <a href="/">
-                <h4>IG</h4>
+                <img src="/img/LOGO (1).jpg" width="60">
             </a>
         </div>
         <div class="nav-menu">
