@@ -33,3 +33,12 @@ Route::get('/lobby', 'HomeController@lobby');
 Route::get('/exhibitors', 'HomeController@listExhibitors');
 Route::get('/watch', 'HomeController@listVideos');
 Route::get('/watch/video/{id}', 'HomeController@watchVideo');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('logout', function () {
+    auth()->logout();
+    return redirect('/');
+});

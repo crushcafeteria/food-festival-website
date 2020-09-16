@@ -75,7 +75,8 @@
                         Join the adventure by clicking the register button! Register
                     </p>
 
-                    <a href="#" class="btn btn-success">Register Here!</a>
+                    <a href="/register" class="btn btn-success">Register Here!</a>
+                    <a target="_blank" href="/The IREN Growthpad Virtual Food Festival 2020 Program.pdf" class="btn btn-primary">Our Programme</a>
                 </div>
             </div>
         </div>
@@ -98,9 +99,9 @@
         </div>
     </div>
     @php
-        $items = range(1,8);
+        $speakers = \App\Models\Speaker::get();
     @endphp
-    @foreach ($items as $item)
+    @foreach ($speakers as $speaker)
         @include('components.speaker')
     @endforeach
 

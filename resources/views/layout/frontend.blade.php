@@ -45,7 +45,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-title">
-                    <h2 class="text-center">Get in touch with us</h2>
+                    <h2 class="text-center">Chat Lounge</h2>
                     <p class="text-center">We will be happy to help!</p>
                 </div>
                 <div class="cs-text">
