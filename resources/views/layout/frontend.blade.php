@@ -52,11 +52,11 @@
                     <ul>
                         <li>
                             <span>Phone:</span>
-                            (+254) 700 123 456
+                            +254 798 802 824
                         </li>
                         <li>
                             <span>Email:</span>
-                            info@irenkenya.com
+                            growthpad@irenkenya.com
                         </li>
                     </ul>
                 </div>
@@ -76,11 +76,10 @@
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed by <a href="https://sodium.co.ke" target="_blank">Sodium Africa</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
                         <div class="ft-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a target="_blank" href="https://web.facebook.com/IRENGrowthpad"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="https://twitter.com/IRENGrowthpad"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/company/inter-region-economic-network-iren-kenya-/"><i class="fa fa-linkedin"></i></a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UC-4mGDBbhVL5UtKXQpL_pnw"><i class="fa fa-youtube-play"></i></a>
                         </div>
                     </div>
                 </div>
