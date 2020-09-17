@@ -32,8 +32,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/lobby', 'HomeController@lobby');
 Route::get('/exhibitors', 'HomeController@listExhibitors');
 Route::get('/exhibitors/{id}', 'HomeController@showExhibitor');
-Route::get('/watch', 'HomeController@listVideos');
-Route::get('/watch/video/{id}', 'HomeController@watchVideo');
+Route::get('/watch', 'HomeController@listVideos')->middleware('auth');
+Route::get('/watch/video/{id}', 'HomeController@watchVideo')->middleware('auth');
 
 Auth::routes();
 
