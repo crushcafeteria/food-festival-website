@@ -73,9 +73,7 @@
                         Join the adventure by clicking the register button! Register
                     </p>
 
-                    <a href="/register" class="btn btn-success">Register Here!</a>
-                    <a target="_blank" href="/The IREN Growthpad Virtual Food Festival 2020 Program.pdf"
-                        class="btn btn-primary">Our Programme</a>
+                    <a href="/register" class="btn btn-success btn-lg">Register here to participate</a>
                 </div>
             </div>
         </div>

@@ -15,25 +15,23 @@
                         <a href="/lobby">Lobby</a>
                     </li>
                     <li>
+                        <a target="_blank" href="/The IREN Growthpad Virtual Food Festival 2020 Program.pdf">Agenda</a>
+                    </li>
+                    <li>
                         <a href="/exhibitors">Festival Square</a>
                     </li>
                     <li>
                         <a href="/watch">Kamukunji</a>
                     </li>
-                    @auth
-                        <li>
-                            <a href="/watch">Watch Live</a>
-                        </li>
-                    @endauth
                 </ul>
             </nav>
             @auth
-                <a href="/logout" class="primary-btn top-btn"><i class="fa fa-user-circle"></i>
-                    Logout, {{ explode(' ', auth()->user()->name)[0] }}</a>
+            <a href="/logout" class="primary-btn top-btn"><i class="fa fa-user-circle"></i>
+                Logout, {{ explode(' ', auth()->user()->name)[0] }}</a>
             @endauth
             @unless(auth()->check())
-                <a href="/watch" class="primary-btn top-btn"><i class="fa fa-play-circle"></i>
-                    Watch Live</a>
+            <a href="/watch" class="primary-btn top-btn"><i class="fa fa-play-circle"></i>
+                Watch Live</a>
 
             @endunless
         </div>
