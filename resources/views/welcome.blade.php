@@ -62,7 +62,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="ha-text">
-                    <h2>Who we are</h2>
+                    <h2>About Us</h2>
                     <p>
                         The IREN Growthpad Virtual Food Festival 2020 aims to deliver a great African travel experience through promotion of indigenous foods and music. On September 24-25, 2020, the virtual food festival will feature Kamukunji panel sessions; Festival square for exhibitions, African Recipe Books, outcome of the Chakula Chetu Recipe Challenge 2020 and chat lounge.
                     </p>

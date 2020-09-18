@@ -5,9 +5,7 @@
 <div class="container">
     <div class="row">
         <div class="col mb-5">
-            <video playsinline autoplay muted loop poster="http://placehold.it/1000x500?text=Live stream coming soon..."
-                   src="#!" width="100%" class="img-thumbnail">
-            </video>
+            <img src="/img/Kamukunji Image.png" class="img-fluid">
         </div>
     </div>
     <div class="row">
