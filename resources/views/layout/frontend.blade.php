@@ -73,7 +73,8 @@
                 <div class="col-lg-12">
                     <div class="footer-text">
                         <div class="copyright-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed by <a href="https://sodium.co.ke" target="_blank">Sodium Africa</a>
+                                IREN Growthpad &copy;<script>document.write(new Date().getFullYear());</script>
+                                <br>All rights reserved | Designed by <a href="https://sodium.co.ke" target="_blank">Sodium Africa</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
                         <div class="ft-social">
                             <a target="_blank" href="https://web.facebook.com/IRENGrowthpad"><i class="fa fa-facebook"></i></a>

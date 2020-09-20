@@ -9,6 +9,7 @@
             <div class="col-lg-12 text-center">
                 <div class="hero-text">
                     <h2>The IREN Growthpad Virtual Food Festival 2020</h2>
+                    <h4 class="mt-3 text-light">To reimagine tourism and food experiences in Kenya</h4>
                 </div>
             </div>
         </div>
@@ -22,7 +23,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="counter-text">
-                    <span>Mark your calendar!</span>
+                    <span>24<sup>th</sup> - 25<sup>th</sup> September</span>
                     <h3>We will be going<br />live in</h3>
                 </div>
             </div>
@@ -87,9 +88,11 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2>Who’s speaking</h2>
-                    <p>
-                        You will interact live with the following speakers
+                    <h2>
+                        <a target="_blank" href="/The IREN Growthpad Virtual Food Festival 2020 Program.pdf" class="text-primary">The Agenda</a>
+                    </h2>
+                    <p class="font-weight-bold">
+                        Also attending
                     </p>
                 </div>
             </div>
