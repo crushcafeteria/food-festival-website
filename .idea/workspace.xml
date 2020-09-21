@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b74d8af-da9e-4e0d-9f2f-cab44e493b63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/frontend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/frontend.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +24,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="133" selection-start-line="133" selection-end-line="133" />
+            <state relative-caret-position="456">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
+              <folding>
+                <element signature="e#4701#4725#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -395,7 +398,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600672786292</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding videos">
+      <created>1600674895901</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600674895901</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding videos">
+      <created>1600675863569</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600675863569</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -414,8 +431,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298969" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4994641" visible="true" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4994641" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005359" side_tool="true" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -740,8 +757,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        <state relative-caret-position="456">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+          <folding>
+            <element signature="e#4701#4725#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
