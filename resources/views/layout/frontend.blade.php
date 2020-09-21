@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Manup Template">
-    <meta name="keywords" content="Manup, unica, creative, html">
+    <meta name="description" content="{{ config('app.name') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ config('app.name') }}</title>
