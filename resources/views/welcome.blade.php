@@ -108,12 +108,12 @@
             <div class="row">
                 @foreach ($speakers as $speaker)
                     {{--@include('components.speaker')--}}
-                    <div class="col-4 mb-4">
+                    <div class="col-12 col-lg-4 mb-4">
                         <div class="card">
                             <img class="card-img-top" src="{{ $speaker->picture }}">
                             <div class="card-body">
                                 <h5 class="text-center">{{ $speaker->name }}</h5>
-                                <p class="card-text text-center" style="font-size: 13px;">
+                                <p class="card-text text-center text-black" style="font-size: 13px;">
                                     {{ $speaker->description }}
                                 </p>
                             </div>
@@ -129,7 +129,7 @@
             @if($news->count())
                 <div class="row mt-5">
                     <div class="col-12">
-                        <h4 class="text-center mb-5">We have been featured in the news</h4>
+                        <h4 class="text-center mb-5">Related Stories</h4>
                     </div>
                     <div class="row justify-content-center">
                         @foreach($news as $item)
