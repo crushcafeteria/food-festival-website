@@ -113,7 +113,6 @@
                             <img class="card-img-top" src="{{ $speaker->picture }}">
                             <div class="card-body">
                                 <h5>{{ $speaker->name }}</h5>
-                                <h5 class="card-title">Card title</h5>
                                 <p class="card-text">
                                     {{ $speaker->description }}
                                 </p>
@@ -122,6 +121,25 @@
                     </div>
                 @endforeach
             </div>
+
+            {{--In the news--}}
+            @php
+                $news = \App\Models\Coverage::get();
+            @endphp
+            @if($news->count())
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 class="text-center mb-5">We have been featured in the news</h4>
+                    </div>
+                    <div class="row justify-content-center">
+                        @foreach($news as $item)
+                            <div class="col-1">
+                                <img src="http://placehold.it/200x200">
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            @endif
         </div>
 
     </section>

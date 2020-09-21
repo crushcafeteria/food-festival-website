@@ -42,7 +42,11 @@
         <!-- Contact Section Begin -->
 <section class="contact-section spad">
     <div class="container">
+
         <div class="row">
+            <div class="col-12">
+
+            </div>
             <div class="col-lg-12 text-center">
                 <div class="section-title">
                     <h2 class="text-center">Chat Lounge</h2>
