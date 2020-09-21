@@ -135,7 +135,7 @@
                         @foreach($news as $item)
                             <div class="col-1">
                                 <a href="{{ $item->link }}">
-                                    <img src="{{ $item->picture }}">
+co                                    <img src="{{ $item->picture }}">
                                 </a>
                             </div>
                         @endforeach

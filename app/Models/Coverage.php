@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Coverage extends Model
 {
-    //
+    function getPictureAttribute($val)
+    {
+        return asset('storage/' . $val);
+    }
 }
