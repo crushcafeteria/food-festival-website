@@ -112,8 +112,8 @@
                         <div class="card">
                             <img class="card-img-top" src="{{ $speaker->picture }}">
                             <div class="card-body">
-                                <h5>{{ $speaker->name }}</h5>
-                                <p class="card-text">
+                                <h5 class="text-center">{{ $speaker->name }}</h5>
+                                <p class="card-text text-center" style="font-size: 13px;">
                                     {{ $speaker->description }}
                                 </p>
                             </div>
