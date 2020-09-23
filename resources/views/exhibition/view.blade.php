@@ -30,6 +30,16 @@
                 </div>
             @endif
 
+            @if($exhibitor->video)
+                <div class="row">
+                    <div class="col mb-5">
+                        <iframe width="100%" height="750" src="{{ $exhibitors->video }}" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            @endif
+
             <div class="col-md-12 mt-5">
                 <object data="{{ $val }}" type="application/pdf" height="800px"
                         width="100%">

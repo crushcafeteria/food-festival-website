@@ -8,13 +8,21 @@ class Exhibitor extends Model
 {
     function getLogoAttribute($val)
     {
-        $val = str_replace('\\', '/', $val);
-        return asset('storage/' . $val);
+        if ($val) {
+            $val = str_replace('\\', '/', $val);
+            return asset('storage/' . $val);
+        }
+
+        return null;
     }
 
     function getBannerAttribute($val)
     {
-        $val = str_replace('\\', '/', $val);
-        return asset('storage/' . $val);
+        if ($val) {
+            $val = str_replace('\\', '/', $val);
+            return asset('storage/' . $val);
+        }
+
+        return null;
     }
 }
