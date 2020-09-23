@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="hero-text">
-                        <h2>The IREN Growthpad Virtual Food Festival 2020</h2>
-                        <h4 class="mt-3 text-light">To reimagine tourism and food experiences in Kenya</h4>
+                        <h2 style="text-shadow: 2px 2px 10px rgba(0,0,0,1);">The IREN Growthpad Virtual Food Festival 2020</h2>
+                        <h4 class="mt-3 text-light" style="text-shadow: 2px 2px 2px rgba(0,0,0,1);">To reimagine tourism and food experiences in Kenya</h4>
                     </div>
                 </div>
             </div>

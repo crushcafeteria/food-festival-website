@@ -34,10 +34,14 @@ class HomeController extends Controller
 
     function listExhibitors()
     {
-        $rows = Exhibitor::paginate();
+        $rows = Exhibitor::query();
+
+        if (request()->has('type') && request()->type != 'ALL') {
+            $rows = $rows->where('category', request()->type);
+        }
 
         return view('exhibition.list', [
-            'rows' => $rows
+            'rows' => $rows->paginate()
         ]);
     }
 
