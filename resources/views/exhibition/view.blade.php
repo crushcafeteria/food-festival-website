@@ -8,7 +8,7 @@
             <div class="col-12 mb-5 mt-5">
                 <div class="row">
                     <div class="col-1 align-items-center pt-3">
-                        <img src="{{ $exhibitor->logo }}" class="img-fluid">
+                        <img src="/storage/{{ $exhibitor->logo }}" class="img-fluid">
                     </div>
                     <div class="col-11">
                         <h1 class="mt-1">{{ $exhibitor->business_name }}</h1>
@@ -26,7 +26,7 @@
 
             @if($exhibitor->banner)
                 <div class="col-12">
-                    <img src="{{ $exhibitor->banner }}" class="img-fluid">
+                    <img src="/storage/{{ $exhibitor->banner }}" class="img-fluid">
                 </div>
             @endif
 
