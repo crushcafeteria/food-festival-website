@@ -36,7 +36,7 @@
             @if($exhibitor->video)
                 <div class="row">
                     <div class="col mb-5">
-                        <iframe width="100%" height="750" src="{{ $exhibitors->video }}" frameborder="0"
+                        <iframe width="100%" height="750" src="{{ $exhibitor->video }}" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                     </div>
