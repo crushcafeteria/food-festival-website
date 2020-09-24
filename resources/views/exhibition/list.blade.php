@@ -36,7 +36,7 @@
                 @foreach($rows as $row)
                     <div class="col-12 col-lg-4">
                         <div class="card mb-4">
-                            <img class="card-img-top" src="{{ $row->logo }}" alt="{{ $row->name }}">
+                            <img class="card-img-top" src="/storage/{{ $row->logo }}" alt="{{ $row->name }}">
                             <div class="card-body">
                                 <h5 class="card-title">{{ $row->business_name }}</h5>
                                 <a href="/exhibitors/{{ $row->id }}" class="btn btn-outline-primary btn-block">Open
