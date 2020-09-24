@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Exhibitor;
 use App\Models\Video;
+use App\Models\Vote;
 
 class HomeController extends Controller
 {
@@ -66,7 +67,29 @@ class HomeController extends Controller
     function showExhibitor($id)
     {
         return view('exhibition.view', [
-            'exhibitor' => Exhibitor::find($id)
+            'exhibitor' => Exhibitor::find($id),
+            'votes'     => Vote::where('exhibitor_id', $id)->count(),
+            'voted'     => Vote::where(['user_id' => auth()->id(), 'exhibitor_id' => $id])->count()
         ]);
+    }
+
+    function castVote($exID)
+    {
+        $exhibitor = Exhibitor::find($exID);
+
+        if ($exhibitor) {
+            $vote = Vote::where('user_id', auth()->id())->where('exhibitor_id', $exhibitor->id)->first();
+
+            if (!$vote) {
+                $vote = Vote::create([
+                    'user_id'      => auth()->id(),
+                    'exhibitor_id' => $exhibitor->id,
+                ]);
+            }
+        }
+
+//        dd($vote);
+
+        return redirect()->back();
     }
 }

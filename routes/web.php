@@ -43,3 +43,5 @@ Route::get('logout', function () {
     auth()->logout();
     return redirect('/');
 });
+
+Route::get('/vote/{exID}', 'HomeController@castVote')->middleware('auth');

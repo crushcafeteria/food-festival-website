@@ -18,8 +18,11 @@
                             $val = str_replace('\\', '/', $val);
                             $val = asset('storage/' . $val);
                         @endphp
-                        <a target="_blank" href="{{ $val }}">Download
-                            business profile</a>
+                        <a target="_blank" href="{{ $val }}" class="text-primary">Download business profile</a>
+                        |
+                        <a href="{{ ($voted) ? '#!' : '/vote/'.$exhibitor->id }}"
+                           class="{{ ($voted) ? 'text-danger' : 'text-primary' }}">{{ ($voted) ? 'You have already cast your vote' : 'Vote for this exhibitor' }}
+                            ({{ $votes }} votes)</a>
                     </div>
                 </div>
             </div>
