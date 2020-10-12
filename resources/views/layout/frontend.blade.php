@@ -77,10 +77,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-text">
-                        <div class="copyright-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                IREN Growthpad &copy;<script>document.write(new Date().getFullYear());</script>
+                        <div class="copyright-text">
+                            <p style="color: #a0a1b5 !important;">
+                                &copy;<script>document.write(new Date().getFullYear());</script> IREN Growthpad
                                 <br>All rights reserved | Designed by <a href="https://sodium.co.ke" target="_blank">Sodium Africa</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                            </p>
+                        </div>
                         <div class="ft-social">
                             <a target="_blank" href="https://web.facebook.com/IRENGrowthpad"><i class="fa fa-facebook"></i></a>
                             <a target="_blank" href="https://twitter.com/IRENGrowthpad"><i class="fa fa-twitter"></i></a>
