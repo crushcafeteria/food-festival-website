@@ -24,7 +24,7 @@
                 <div class="col-lg-4">
                     <div class="counter-text">
                         <span>24<sup>th</sup> - 25<sup>th</sup> September</span>
-                        <h3>We will be going<br/>live in</h3>
+                        <h3>Thank you for joining <br/>us online!</h3>
                     </div>
                 </div>
                 <div class="col-lg-8">
