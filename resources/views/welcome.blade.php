@@ -8,8 +8,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="hero-text">
-                        <h2 style="text-shadow: 2px 2px 10px rgba(0,0,0,1);">The IREN Growthpad Virtual Food Festival 2020</h2>
-                        <h4 class="mt-3 text-light" style="text-shadow: 2px 2px 2px rgba(0,0,0,1);">To reimagine tourism and food experiences in Kenya</h4>
+                        <h2 style="text-shadow: 2px 2px 10px rgba(0,0,0,1);">The IREN Growthpad Virtual Food Festival
+                            2020</h2>
+                        <h4 class="mt-3 text-light" style="text-shadow: 2px 2px 2px rgba(0,0,0,1);">To reimagine tourism
+                            and food experiences in Kenya</h4>
                     </div>
                 </div>
             </div>
@@ -66,17 +68,15 @@
                         <h2>About Us</h2>
                         <p>
                             The IREN Growthpad Virtual Food Festival 2020 aims to deliver a great African travel
-                            experience
-                            through promotion of indigenous foods and music. On September 24-25, 2020, the virtual food
-                            festival will feature Kamukunji panel sessions; Festival square for exhibitions, African
-                            Recipe
-                            Books, outcome of the Chakula Chetu Recipe Challenge 2020 and chat lounge.
+                            experience through promotion of indigenous foods and music.
                         </p>
                         <p>
-                            Join the adventure by clicking the register button! Register
+                            On September 24-25, 2020, the virtual food festival featured Kamukunji panel sessions;
+                            Festival square for exhibitions, African Recipe Books and outcomes of the Chakula Chetu
+                            Recipe & Food Vlogger Challenge 2020
                         </p>
 
-                        <a href="/register" class="btn btn-success btn-lg">Register here to participate</a>
+                        <a href="/watch" class="btn btn-success btn-lg">Here is what you missed</a>
                     </div>
                 </div>
             </div>
