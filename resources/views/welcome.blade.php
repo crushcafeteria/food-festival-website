@@ -76,7 +76,7 @@
                             Recipe & Food Vlogger Challenge 2020
                         </p>
 
-                        <a href="/watch" class="btn btn-success btn-lg">Here is what you missed</a>
+                        <a href="/watch" class="btn btn-success btn-lg">Replay the event</a>
                     </div>
                 </div>
             </div>
